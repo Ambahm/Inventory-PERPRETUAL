@@ -17,6 +17,9 @@ so as to :
  - Count the total left in inventory.
 
  - Calculate the profit  earned. 
+ 
+Perpetual inventory system nakes possible to keep record of inventories in real time. 
+This is also called as "continous inventory" system.
 
 
 
