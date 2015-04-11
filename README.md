@@ -10,13 +10,13 @@ Purpose of this program is to create a software to assist the business
 to impliment inventory control system of pepetual inventory control
 so as to :
 
- #  Count the total available in inventory
+ #Count the total available in inventory
 
- #  Count the number of item sold.
+ #Count the number of item sold.
 
- # Count the total left in inventory.
+ #Count the total left in inventory.
 
- # Calculate the profit  earned. 
+ #Calculate the profit  earned. 
 
 
 
