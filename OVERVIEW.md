@@ -1,6 +1,6 @@
 **********************************************************
-#IS-210-Final-Project
-#Final project : is 210 : spring 2015
+#HnM Stores
+#INVENTORY MANAGEMENT
 **********************************************************
 
 This is the repository for the final project for the 
