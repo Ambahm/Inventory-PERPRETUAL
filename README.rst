@@ -90,14 +90,15 @@ Scenario 1:
 
 **Adding New Item**
 
-.. class:: center
+
 | **Given** New items need to be added to inventory
 | **And**    Would like to add them
 | **When** Click the  *Add* button
-| **Then**  (I will be taken to a  screen to enter  information
+| **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number, Description, Sizes Available, Quantity and
 Cost of item. Calculate purchase price (item Quantity purchased x cost)
-This will help to record Profit and Loss )
+This will help to record Profit and Loss 
+
 | **And**  The *Total Quantity* will be updated.
 
 
@@ -106,14 +107,16 @@ Scenario 2:
 
 **Selling An Item**
 
-**Given** Item is sold
-**And**   Would lik to update related info
-**When** Click the  *Sold* button
-**Then**  I will be taken to a  screen to enter  information
+| **Given** Item is sold
+| **And**   Would lik to update related info
+| **When** Click the  *Sold* button
+| **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number,Price, Date sold, cost
-**And**  Updates will be made for : *Quantity left ( Begining - Available)*,
+
+| **And**  Updates will be made for : *Quantity left ( Begining - Available)*,
 *Profit(Price-cost of item)*, * Total Earned ( accumulation of earned)*
-| 
+
+
 Scenario 3: 
 ---------------------------------
 
