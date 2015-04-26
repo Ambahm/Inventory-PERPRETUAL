@@ -97,9 +97,10 @@ Scenario 1:
 | **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number, Description, Sizes Available, Quantity
 and Cost of item.
+
 Calculate purchase price (item Quantity purchased x cost)
 This will help to record Profit and Loss
-| **And**   *Total Quantity* will be updated.
+| **And**    *Total Quantity* will be updated.
 
 Scenario 2: 
 ---------------------------------
