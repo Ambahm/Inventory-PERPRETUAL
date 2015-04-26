@@ -114,7 +114,7 @@ Scenario 2:
 Item Name, Serial Number,Price, Date sold, cost
 
 | **And**  Updates will be made for : *Quantity left ( Begining - Available)*,
-*Profit(Price-cost of item)*, * Total Earned that is accumulation of earned*
+*Profit(Price-cost of item)*, *Total Earned that is accumulation of earned*
 
 
 Scenario 3: 
@@ -128,7 +128,7 @@ Scenario 3:
 | **Then**  I will be taken to a  screen to enter  information 
 Item Name, Serial Number, Cost, Size, Quantity
 
-| **And**   Calculations will be for : *Loss = Quantity Lost x cost * , not using 
+| **And**   Calculations will be for : *Loss = Quantity Lost x cost* , not using 
 this number in program as this is relevant  for accounting purposes.
 
-Updates will me made for *Quantity Available* for that size and type  of shoe. Quantity Available will be reduced b the Quantity lost 
+Updates will me made for *Quantity Available* for that size and type  of shoe. Quantity Available will be reduced by the Quantity lost 
