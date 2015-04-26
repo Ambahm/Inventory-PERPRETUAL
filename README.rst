@@ -130,5 +130,4 @@ Item Name, Serial Number, Cost, Size, Quantity
 
 | **And**   Calculations will be for : *Loss = Quantity Lost x cost * , not using 
 this number in program as this is relevant  for accounting purposes.
-
 Updates will me made for *Quantity Available* for that size and type  of shoe. Quantity Available will be reduced b the Quantity lost 
