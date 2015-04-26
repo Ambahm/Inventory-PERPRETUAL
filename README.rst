@@ -90,7 +90,7 @@ Scenario 1:
 
 **Adding New Item**
 
-
+.. class:: center
 | **Given** New items need to be added to inventory
 | **And**    Would like to add them
 | **When** Click the  *Add* button
@@ -98,7 +98,6 @@ Scenario 1:
 Item Name, Serial Number, Description, Sizes Available, Quantity and
 Cost of item. Calculate purchase price (item Quantity purchased x cost)
 This will help to record Profit and Loss )
-
 | **And**  The *Total Quantity* will be updated.
 
 
