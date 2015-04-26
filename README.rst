@@ -93,7 +93,7 @@ Scenario 1:
 
 **Given** New items need to be added to inventory
 
-|**And**    Would like to add them
+| **And**    Would like to add them
 **When** Click the  *Add* button
 **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number, Description, Sizes Available, Quantity
