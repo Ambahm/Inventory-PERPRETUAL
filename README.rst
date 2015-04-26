@@ -114,7 +114,7 @@ Scenario 2:
 Item Name, Serial Number,Price, Date sold, cost
 
 | **And**  Updates will be made for : *Quantity left ( Begining - Available)*,
-*Profit(Price-cost of item)*, * Total Earned ( accumulation of earned)*
+*Profit(Price-cost of item)*, * Total Earned that is accumulation of earned)*
 
 
 Scenario 3: 
