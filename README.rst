@@ -104,7 +104,7 @@ and Cost of item.
 Calculate purchase price (item Quantity purchased x cost)
 This will help to record Profit and Loss
 
- **And**    *Total Quantity* will be updated.
+**And**    *Total Quantity* will be updated.
 
 Scenario 2: 
 ---------------------------------
