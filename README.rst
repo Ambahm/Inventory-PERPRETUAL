@@ -124,10 +124,10 @@ This will help t record Profit/Loss
 ** Recording Lost/Stolen/Damaged Item and Loss** 
 ::
 
-| **Given** Item is in inventory list but can not be found or is damaged
+ **Given** Item is in inventory list but can not be found or is damaged
 | **And**    Would lik to update related info
 | **When** Click the  *Write off Item* button
-| **Then**  I will be taken to a  screen to enter  information :
+| **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number, Cost, Size, Quantity
 | **And**   Calculations will be for : *Loss = Quantity Lost x cost * , not using 
 this number in program as this is relevant  for accounting purposes.
