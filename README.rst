@@ -89,10 +89,10 @@ Scenario 1:
 ---------------------------------
 
 **Adding New Item**
-::
+
 
 | **Given** New items need to be added to inventory
-| **And**     Would like to add them
+| **And**    Would like to add them
 | **When** Click the  *Add* button
 | **Then**  I will be taken to a  screen to enter  information :
 Item Name, Serial Number, Description, Sizes Available, Quantity
@@ -107,13 +107,13 @@ This will help t record Profit/Loss
 ---------------------------------
 
 **Selling An Item**
-::
+
 
 | **Given** Item is sold
-| **And**    Would lik to update related info
+| **And**   Would lik to update related info
 | **When** Click the  *Sold* button
-| **Then**  I will be taken to a  screen to enter  information:
- Item Name, Serial Number,Price, Date sold, cost
+| **Then**  I will be taken to a  screen to enter  information
+Item Name, Serial Number,Price, Date sold, cost
 | **And**   Updates will be made for : *Quantity left ( Begining - Available),
  Profit(Price-cost of item),  Total Earned ( accumulation of earned)*
 
@@ -122,13 +122,13 @@ This will help t record Profit/Loss
 -----------------------------
 
 ** Recording Lost/Stolen/Damaged Item and Loss** 
-::
 
- **Given** Item is in inventory list but can not be found or is damaged
+
+| **Given** Item is in inventory list but can not be found or is damaged
 | **And**    Would lik to update related info
 | **When** Click the  *Write off Item* button
-| **Then**  I will be taken to a  screen to enter  information
+| **Then**  I will be taken to a  screen to enter  information 
 Item Name, Serial Number, Cost, Size, Quantity
 | **And**   Calculations will be for : *Loss = Quantity Lost x cost * , not using 
 this number in program as this is relevant  for accounting purposes.
-| **And**   Updates will me made for *Quantity Available* for that size and type  of shoe. Quantity Available will be reduced b the Quantity lost 
+Updates will me made for *Quantity Available* for that size and type  of shoe. Quantity Available will be reduced b the Quantity lost 
