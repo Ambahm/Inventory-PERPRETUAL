@@ -85,11 +85,11 @@ implemented.
 ACCEPTANCE STORIES:
 ====================
 
- Scenario 1: 
+Scenario 1: 
 ---------------------------------
 
 **Adding New Item**
-
+::
 
 | **Given** New items need to be added to inventory
 | **And**     Would like to add them
@@ -98,7 +98,7 @@ ACCEPTANCE STORIES:
 Item Name, Serial Number, Description, Sizes Available, Quantity
 and Cost of item
 | **Then** Calculate purchase price = item Quantity purchased x cost
-                       This will help t record Profit/Loss
+This will help t record Profit/Loss
 | **And**   *Total Quantity* will be updated.
 
 
@@ -107,9 +107,9 @@ and Cost of item
 ---------------------------------
 
 **Selling An Item**
+::
 
-
- **Given** Item is sold
+| **Given** Item is sold
 | **And**    Would lik to update related info
 | **When** Click the  *Sold* button
 | **Then**  I will be taken to a  screen to enter  information:
@@ -122,13 +122,13 @@ and Cost of item
 -----------------------------
 
 ** Recording Lost/Stolen/Damaged Item and Loss** 
+::
 
- **Given** Item is in inventory list but can not be found or is damaged
+| **Given** Item is in inventory list but can not be found or is damaged
 | **And**    Would lik to update related info
 | **When** Click the  *Write off Item* button
 | **Then**  I will be taken to a  screen to enter  information :
-                        Item Name, Serial Number, Cost, Size, Quantity
+Item Name, Serial Number, Cost, Size, Quantity
 | **And**   Calculations will be for : *Loss = Quantity Lost x cost * , not using 
 this number in program as this is relevant  for accounting purposes.
- | **And**   Updates will me made for *Quantity Available* for that size and type
- of shoe. Quantity Available will be reduced b the Quantity lost 
+| **And**   Updates will me made for *Quantity Available* for that size and type  of shoe. Quantity Available will be reduced b the Quantity lost 
