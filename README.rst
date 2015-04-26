@@ -111,7 +111,7 @@ Scenario 2:
 **When** Click the  *Sold* button
 **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number,Price, Date sold, cost
-**And**   Updates will be made for : *Quantity left ( Begining - Available)*,
+| **And**  Updates will be made for : *Quantity left ( Begining - Available)*,
 *Profit(Price-cost of item)*, * Total Earned ( accumulation of earned)*
 
 Scenario 3: 
