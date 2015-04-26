@@ -96,9 +96,9 @@ Scenario 1:
 | **When** Click the  *Add* button
 | **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number, Description, Sizes Available, Quantity
-and Cost of item
-Calculate purchase price = item Quantity purchased x cost
-This will help t record Profit/Loss
+and Cost of item.
+Calculate purchase price (item Quantity purchased x cost)
+This will help to record Profit and Loss
 | **And**   *Total Quantity* will be updated.
 
 Scenario 2: 
@@ -106,21 +106,18 @@ Scenario 2:
 
 **Selling An Item**
 
-
 | **Given** Item is sold
 | **And**   Would lik to update related info
 | **When** Click the  *Sold* button
 | **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number,Price, Date sold, cost
-
 | **And**   Updates will be made for : *Quantity left ( Begining - Available)*,
 *Profit(Price-cost of item)*, * Total Earned ( accumulation of earned)*
 
- Scenario 3:
------------------------------
+Scenario 3: 
+---------------------------------
 
 **Recording Lost, Stolen, Damaged Item and Loss** 
-
 
 | **Given** Item is in inventory list but can not be found or is damaged
 | **And**    Would lik to update related info
@@ -130,4 +127,5 @@ Item Name, Serial Number, Cost, Size, Quantity
 
 | **And**   Calculations will be for : *Loss = Quantity Lost x cost * , not using 
 this number in program as this is relevant  for accounting purposes.
+
 Updates will me made for *Quantity Available* for that size and type  of shoe. Quantity Available will be reduced b the Quantity lost 
