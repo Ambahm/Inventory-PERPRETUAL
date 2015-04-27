@@ -93,7 +93,7 @@ Scenario 1:
 
 | **Given** New items need to be added to inventory
 | **And**    Would like to add them
-| **When** Click the  *Add* button
+| **When** Selecting the  *Add* option
 | **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number, Description, Sizes Available, Quantity and
 Cost of item. Calculate purchase price (item Quantity purchased x cost)
@@ -109,7 +109,7 @@ Scenario 2:
 
 | **Given** Item is sold
 | **And**   Would lik to update related info
-| **When** Click the  *Sold* button
+| **When** Selecting the  *Sold* option
 | **Then**  I will be taken to a  screen to enter  information
 Item Name, Serial Number,Price, Date sold, cost
 
@@ -123,8 +123,8 @@ Scenario 3:
 **Recording Lost, Stolen, Damaged Item and Loss** 
 
 | **Given** Item is in inventory list but can not be found or is damaged
-| **And**    Would lik to update related info
-| **When** Click the  *Write off Item* button
+| **And**    Would like to update related info
+| **When** Selecting the  *Write off Item* option
 | **Then**  I will be taken to a  screen to enter  information 
 Item Name, Serial Number, Cost, Size, Quantity
 
